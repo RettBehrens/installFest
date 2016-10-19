@@ -5,7 +5,7 @@ If you do not yet have an account for the Mac App Store, follow the instructions
 
 ## Operating System and Command Line Tools
 
-Before class starts, we suggest you upgrade your operating system to OS X Mavericks (10.9), Yosemite (10.10) or El Capitan (10.11).  If you're on an older machine with 4GB or less of memory, please stick to OS X Mavericks.  Also, **if Apple releases a newer version of OS X while you're in WDI; please don't update until your instructors say it's ok.**
+Before class starts, we suggest you upgrade your operating system to OS X Mavericks (10.9), Yosemite (10.10), El Capitan (10.11) or Sierra (10.12).  If you're on an older machine with 4GB or less of memory, please stick to OS X Mavericks.  Also, **if Apple releases a newer version of OS X while you're in WDI; please don't update until your instructors say it's ok.**
 
 To check what version of OS X you are running:
 
@@ -15,7 +15,7 @@ To check what version of OS X you are running:
 
 3. Read the version information from the window that pops up.
 
-If you are not using Maverick, Yosemite, or El Capitan, detailed instructions for upgrading your operating system are available through Apple support: <a href="https://www.apple.com/support/osx/upgrade/" target="_new">How to upgrade to OS X Yosemite</a>.
+If you are not using Maverick, Yosemite, El Capitan, or Sierra, detailed instructions for upgrading your operating system are available through <a href="https://www.apple.com/support/osx/upgrade/" target="_new">Apple support</a>.
 
 > Please let an instructor know if you're using an older version of OS X or if your system has less than 2 GB of memory.
 
@@ -50,7 +50,27 @@ If you are not using Maverick, Yosemite, or El Capitan, detailed instructions fo
 
 	If you run into problems, you may need to run `rm -rf /usr/local/Cellar /usr/local/.git` and then retry the command above.
 
-3. Run `brew update` to update Homebrew.
+3. Run `brew update` to update Homebrew. If you are running Yosemite or later, you may recieve an error similar to the following at this step:
+	
+	```bash
+	`require': cannot load such file -- mach (LoadError)
+	```
+
+	If so, you might need to change the permissions of your /usr/local directory:
+	
+	```bash
+	$ sudo chown -R $(whoami):admin /usr/local  
+	```
+
+	If that still doesn't work, the following steps should:
+
+	```bash
+	1. open terminal  
+	2. $ cd /usr/local  
+	3. $ git reset --hard  
+	4. $ git clean -df
+	5. $ brew update
+	```
 
 4. Run `brew doctor` in your Terminal to check that Homebrew and any current packages are installed correctly. If there are issues, `brew doctor` will list suggestions for how to fix them.  Follow these suggestions one by one. If you're not sure what to do, **ask!**
 
