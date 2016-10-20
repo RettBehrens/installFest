@@ -119,7 +119,7 @@ Configuring your git settings to help GitHub track your contributions and to mak
 
     <a href="https://help.github.com/articles/generating-an-ssh-key" target="_new">Generating SSH Keys (via GitHub.com)</a>
 
-```Note: The layout of this GitHub walkthrough is a little unclear. You need to complete all four steps (click the four links). At the end of "Testing your SSH Connection", you should see something like, "You've successfully authenticated...." That means you're done.```
+> Note: The layout of this GitHub walkthrough is a little unclear. You need to complete all four steps (click the four links). At the end of "Testing your SSH Connection", you should see something like, "You've successfully authenticated...." That means you're done.
 
 ## Sublime Text 3
 
@@ -218,6 +218,10 @@ You can try this now.
 ### Dash
 
 [Download Dash](https://kapeli.com/dash) a fantastic application that organizes API documentation for developers. We'll use it more later as we dive deeper into the rich world of languages, frameworks, and libraries.
+
+### Postman
+
+[Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en) is a great Chrome extension that allows you to interact with APIs.  Add it to your browser by going to [this link](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en).
 
 ### Shortcut keys
 
