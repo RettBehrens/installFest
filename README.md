@@ -6,7 +6,7 @@ The technologies to install fall into three categories, so we have three sets of
 
 1. [Web Development Tools for Mac OS X](mac-dev-tools.md)
 2. [Tools for Node.js and Express Stack](express-stack.md)
-3. [Tools for Ruby on Rails Stack](ruby-on-rails-stack.md)
+3. [PHP and Postgres](php-and-postgres.md)
 
 *In this context, "stack" refers to a group of technologies used together to create a web app.*
 
