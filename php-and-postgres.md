@@ -35,6 +35,16 @@ Finally, install PHP version 5.6:
 brew install php56
 ```
 
+<details>
+<summary>Still Having Trouble?</summary>
+### Homebrew PHP
+
+The package you just installed also has its own [documentation here](https://github.com/Homebrew/homebrew-php).  If you are still seeing issues, you may want to check their sit out.
+
+</details>
+
+
+
 ## PostgreSQL 
 
 ### Postgres
