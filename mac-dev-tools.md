@@ -107,6 +107,8 @@ You should already have git installed and have an account on GitHub from Fundame
 
 Configuring your git settings to help GitHub track your contributions and to make it easier and smoother to commit. 
 
+>Note: Replace "YOUR-USERNAME" with your GitHub username and replace YOUR-EMAIL-ADDRESS with the email address you used to sign in to GitHub.
+
 1. Use the following three `git config` commands to configure your git user information and have git "cache" (remember) it. We use the `--global` (or `-g`) option to make the configuration apply to all repositories.
   
 	```
