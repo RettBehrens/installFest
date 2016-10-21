@@ -59,7 +59,7 @@ If you are not using Maverick, Yosemite, El Capitan, or Sierra, detailed instruc
 	If so, you might need to change the permissions of your /usr/local directory:
 	
 	```bash
-	$ sudo chown -R $(whoami):admin /usr/local  
+	sudo chown -R $(whoami):admin /usr/local  
 	```
 
 	If that still doesn't work, the following steps should:
