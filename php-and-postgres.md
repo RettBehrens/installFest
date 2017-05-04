@@ -62,11 +62,18 @@ The package you just installed also has its own [documentation here](https://git
   ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
   ```
 
-3. Check that your install worked
+3. Now create your first database with:
+
+  ```bash
+  createdb
+  ```
+
+4. Check that your install worked
 
     ```bash
     which psql
     ```
+    
 This should return 
 
     ```bash
