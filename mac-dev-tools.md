@@ -3,6 +3,10 @@
 
 If you do not yet have an account for the Mac App Store, follow the instructions on Apple Support to <a href="https://support.apple.com/kb/PH11499?locale=en_US" target="_new">create a Mac App Store account</a>.
 
+## A "Working Directory"
+
+In these instructions, and in the class materials, you will see references to a `working directory`.  Before you do any of the steps below, find a place on your computer where you are comfortable saving your work and create a folder called `wdi-work` or something similar.  This folder will have **a lot of work** in it, so it is important to keep each of your projects in a well-named folder within this `wdi-work` folder.
+
 ## Operating System and Command Line Tools
 
 Before class starts, we suggest you upgrade your operating system to OS X Mavericks (10.9), Yosemite (10.10), El Capitan (10.11) or Sierra (10.12).  If you're on an older machine with 4GB or less of memory, please stick to OS X Mavericks.  Also, **if Apple releases a newer version of OS X while you're in WDI; please don't update until your instructors say it's ok.**
