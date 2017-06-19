@@ -84,19 +84,19 @@ This should return
 
 MAMP stands for:
 
-- *M*ac Operating System
-- *A*pache Web Server
-- *M*ySQL dialect of SQL
-- *P*HP back-end language
+- **M**ac Operating System
+- **A**pache Web Server
+- **M**ySQL dialect of SQL
+- **P**HP back-end language
 
 1. Download [MAMP](https://www.mamp.info/en/downloads/)
 1. Double click the .pkg file and follow prompts
+1. Create a folder, inside your working directory, called `mamp`
 1. Double click /Applications/MAMP/MAMP
 1. Point MAMP to your WDI working directory
 	- Click on Preferences
 	- Click on Web Server
-	- Click the folder icon next to "Document Root" and find a suitable directory to work out of
-		- We recommend a folder, inside your working directory, called `mamp`
+	- Click the folder icon next to "Document Root" and select the `mamp` directory you created earlier
 	- Click OK
 1. Click `Start Servers`
 1. Go to <http://localhost:8888/>
