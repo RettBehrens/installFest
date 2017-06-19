@@ -4,6 +4,7 @@
 
 1. Install PHP, a back end web development language.
 2. Install PostgreSQL, a database the database we'll use with our PHP stack.
+3. Install MAMP, a package that bundles together three very useful tools: Apache, MySQL, and PHP.
 
 ## PHP
 
@@ -36,14 +37,13 @@ brew install php56
 ```
 
 <details>
-<summary>Still Having Trouble?</summary>
+<summary>Still Having Trouble?</summary
+
 ### Homebrew PHP
 
 The package you just installed also has its own [documentation here](https://github.com/Homebrew/homebrew-php).  If you are still seeing issues, you may want to check their site out.
 
 </details>
-
-
 
 ## PostgreSQL 
 
@@ -79,6 +79,29 @@ This should return
     ```bash
     /usr/local/bin/psql
     ```
+
+## MAMP
+
+MAMP stands for:
+
+- *M*ac Operating System
+- *A*pache Web Server
+- *M*ySQL dialect of SQL
+- *P*HP back-end language
+
+1. Download [MAMP](https://www.mamp.info/en/downloads/)
+1. Double click the .pkg file and follow prompts
+1. Double click /Applications/MAMP/MAMP
+1. Point MAMP to your WDI working directory
+	- Click on Preferences
+	- Click on Web Server
+	- Click the folder icon next to "Document Root" and find a suitable directory to work out of
+		- We recommend a folder, inside your working directory, called `mamp`
+	- Click OK
+1. Click `Start Servers`
+1. Go to <http://localhost:8888/>
+
+If you see a page that says `Index of /`, MAMP setup is complete.
 
 <details>
 <summary>Postico (optional)</summary>
