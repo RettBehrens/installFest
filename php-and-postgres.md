@@ -73,8 +73,9 @@ The package you just installed also has its own [documentation here](https://git
     ```bash
     which psql
     ```
-    
-This should return 
+> **Note:** If createdb doesn't work, you can start postgres manually with: `pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start`.
+
+5. If you see the text below in Terminal, you are finished:
 
     ```bash
     /usr/local/bin/psql
