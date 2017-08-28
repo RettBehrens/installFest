@@ -228,7 +228,7 @@ You can try this now.
 
 ### Postman
 
-[Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en) is a great Chrome extension that allows you to interact with APIs.  Add it to your browser by going to [this link](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en).
+[Postman](https://www.getpostman.com) is a great app that allows you to interact with APIs.  Add it to your browser by going to [this link](https://www.getpostman.com/apps).
 
 ### Shortcut keys
 
