@@ -54,6 +54,8 @@ The package you just installed also has its own [documentation here](https://git
   brew install postgres
   ```
 
+>**Note:** Once you have installed postgres, if you see an error running the commands below, you may need to run `brew services start postgresql`.
+
 2. Configure postgres to start when the system does.
 
   ```bash
