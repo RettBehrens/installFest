@@ -81,17 +81,11 @@ MonogDB is a popular noSQL database.  We'll use it to store data with our Node.j
   $ which mongo
   ```
 
-<details>
-<summary>Optional RoboMongo</summary>
 ## RoboMongo
-__Optional__
 
 RoboMongo is a GUI (Graphical User Interface) tool to let us see the data in our Mongo databases.
 
 1. Go to <a href="https://robomongo.org/download" target="_new">robomongo.org</a> and download the free (community) edition.
 2. Install it
-
-</details>
-
 
 [ON TO STEP 3: PHP AND POSTGRES](php-and-postgres.md)
