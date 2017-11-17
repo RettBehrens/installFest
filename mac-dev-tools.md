@@ -9,7 +9,7 @@ In these instructions, and in the class materials, you will see references to a 
 
 ## Operating System and Command Line Tools
 
-Before class starts, we suggest you upgrade your operating system to OS X Mavericks (10.9), Yosemite (10.10), El Capitan (10.11) or Sierra (10.12).  If you're on an older machine with 4GB or less of memory, please stick to OS X Mavericks.  Also, **if Apple releases a newer version of OS X while you're in WDI; please don't update until your instructors say it's ok.**
+Before class starts, we suggest you upgrade your operating system to OS X Mavericks (10.9), Yosemite (10.10), El Capitan (10.11), Sierra (10.12), or High Sierra (10.13).  If you're on an older machine with 4GB or less of memory, please stick to OS X Mavericks.  Also, **if Apple releases a newer version of OS X while you're in WDI; please don't update until your instructors say it's ok.**
 
 To check what version of OS X you are running:
 
