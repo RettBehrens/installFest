@@ -68,13 +68,13 @@ If you are not using Maverick, Yosemite, El Capitan, or Sierra, detailed instruc
 
 	If that still doesn't work, the following steps should:
 
-	```bash
+
 	1. open terminal  
-	2. $ cd /usr/local  
-	3. $ git reset --hard  
-	4. $ git clean -df
-	5. $ brew update
-	```
+	2. run the commands below, in shaded text, in terminal
+		1. $ `cd /usr/local ` 
+		2. $ `git reset --hard `
+		3. $ `git clean -df`
+		4. $ `brew update`
 
 4. Run `brew doctor` in your Terminal to check that Homebrew and any current packages are installed correctly. If there are issues, `brew doctor` will list suggestions for how to fix them.  Follow these suggestions one by one. If you're not sure what to do, **ask!**
 
