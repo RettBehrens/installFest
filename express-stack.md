@@ -77,8 +77,8 @@ MonogDB is a popular noSQL database.  We'll use it to store data with our Node.j
 5. Run two commands to check whether the install worked. You should see a file path after each command.
 
   ```bash
-  $ which mongod
-  $ which mongo
+  which mongod
+  which mongo
   ```
 
 ## RoboMongo
