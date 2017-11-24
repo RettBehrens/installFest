@@ -30,11 +30,14 @@ Install nodemon globally with the following command:
   npm install -g nodemon
   ```
 
+<!--This is a dangerous road to go down, let's try not to
+
 If you see an error about permissions, you can run the following instead:
   
   ```
   sudo npm install -g nodemon
   ```
+-->
 
 ### JSHint for Sublime Text
 It's time to install another Sublime Text package! (If you need a refresher on how to do this, you can go back to [the Mac Dev Tools installFest](https://github.com/den-wdi-1/installFest/blob/master/mac-dev-tools.md).
